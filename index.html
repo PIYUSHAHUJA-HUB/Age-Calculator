@@ -1,0 +1,35 @@
+HTML CSS JSResult
+EDIT ON
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <title>Age Calculator</title>
+</head>
+
+<body>
+
+    <section class="age">
+        <div class="days">
+
+        </div>
+
+        <form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' Days'">
+            <h3>Calculate your age in days</h3>
+            <input type="numbers" name="age">
+            <input type="hidden" name="days" value="365">
+            <output name="result"></output>
+        </form>
+
+    </section>
+
+
+
+</body>
+
+</html>
